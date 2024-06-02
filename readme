@@ -1,0 +1,14 @@
+该项目通过收藏夹来下载telegram频道的文件，无需申请机器人，无需频道管理员权限，只需要api_id和api_hash即可下载频道文件，支持多线程下载，支持文件名过滤，支持频道过滤，支持代理。
+使用方法：
+git clone 该项目
+填写config.ini-sample文件，将其改为config.ini
+运行python3 tg_bot_dl_me.py即可
+api_id = 0  # your telegram api id
+api_hash = ''  # your telegram api hash
+proxy = ''
+max_num = 5 # 同时下载数量
+# filter file name/文件名过滤
+filter_list = []
+#filter chat id /过滤某些频道不下载
+blacklist = []
+filter_file_name = []  # 过滤文件名字

@@ -11,4 +11,4 @@ proxy =
 max_num = 5 
 filter_list = 你好，欢迎加入 Quantumu, '\n'
 blacklist = 
-filter_file_name = 故事背景,北京地铁商圈,可安排,卡塔尔世界杯,高端外围,加速
+filter_file_name = 
