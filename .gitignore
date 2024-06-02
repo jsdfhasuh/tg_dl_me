@@ -1,0 +1,21 @@
+# Ignore folders
+__pycache__/
+.idea/
+log/
+store/
+history_json/
+
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+session
+
+#data
+*.json
+# Ignore log files
+*.log
+# Ignore config
+*.ini
+*.config
